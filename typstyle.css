@@ -1,0 +1,20 @@
+body {
+font-size: 16px;
+}
+
+p {
+	/*em is relative to it's nearest parent, rem is relative to the root element  */
+	/*When to use em vs rem: https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984 */
+	font-size: 1em;
+	/*You can specify what font to use, and what font to use if the first is unavailable*/
+	font-family: 'Roboto Slab', serif;
+}
+
+.keypoint {
+	/*Font style is for styling such as italic*/
+	font-style: italic;
+	/*Font weight is another styling option*/
+	font-weight: bold;
+	/*This lets you decorate it further*/
+	text-decoration: underline;
+}

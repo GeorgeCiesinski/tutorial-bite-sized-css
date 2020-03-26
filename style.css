@@ -1,0 +1,49 @@
+/*Refer to blanket tabs using tag*/
+h1 {
+  color:red;
+  background-color:black;
+}
+
+/*Use # to reference ids*/
+#HTMLheader {
+	color:blue;
+}
+
+/*You can define the box the element is in like this*/
+#box {
+  background-color:yellow;
+  /*You can also use percent, such as 30% instead of px*/
+  width: 200px;
+  height: 100px;
+  /*This value adds more of the box around the text. At 0, the text and box will be roughly the same size.*/
+  padding: 20px;
+  /*You can specify a border with multiple attributes*/
+  border: 2px solid black;
+  /*Margin places the box location on the page (middle, side, etc). You can use auto for automatic*/
+  margin: 10px auto 10px auto;
+  /*text-align is for alignment*/
+  text-align: center;
+  vertical-align: middle;
+  /*This is needed for vertical-align to work. Set it to the height of the box for it to be in the middle*/
+  line-height: 100px;
+}
+
+#box2 {
+  background-color:blue;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /*The values can be setup as such: top, right, left, bottom*/
+  padding: 0px 10px 30px 40px
+}
+
+/*Use . to reference class*/
+.activity {
+  color: blue
+}
+
+.diet {
+  color: green
+}
